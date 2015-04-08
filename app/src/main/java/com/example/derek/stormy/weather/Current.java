@@ -1,4 +1,6 @@
-package com.example.derek.stormy;
+package com.example.derek.stormy.weather;
+
+import com.example.derek.stormy.R;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -7,7 +9,7 @@ import java.util.TimeZone;
 /**
  * Created by Derek on 04/04/2015.
  */
-public class CurrentWeather {
+public class Current {
     private String mIcon;
     private long mTime;
     private double mTemperature;
